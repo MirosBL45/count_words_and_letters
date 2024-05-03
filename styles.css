@@ -1,0 +1,51 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Input and Button styles */
+.input-container {
+    margin-bottom: 20px;
+    display: grid;
+    place-items: center;
+}
+
+#allText {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 3px solid #aa8c23;
+    transition: all 0.3s ease;
+}
+
+#allText:focus {
+    border: 3px solid #91358c;
+}
+
+#counting {
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #459135;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#counting:hover {
+    background-color: #0056b3;
+}
+
+/* Result styles */
+.result {
+    margin-top: 20px;
+}
+
+.result p {
+    margin-bottom: 10px;
+}
